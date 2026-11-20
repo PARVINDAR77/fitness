@@ -1,0 +1,135 @@
+{
+  "branding": {
+    "logo": "assets/images/branding/logo.svg",
+    "target": "assets/images/branding/target-bullseye.png",
+    "reference_board": "assets/images/branding/reference_board.png"
+  },
+  "hero": {
+    "trainer": "assets/images/hero/trainer-hero.png"
+  },
+  "tips": {
+    "healthy_food": "assets/images/tips/healthy-food.png"
+  },
+  "exercises": {
+    "squat": {
+      "image": "assets/images/exercises/squat-demo.png",
+      "thumbnail": "assets/images/thumbnails/day-1-squat.png",
+      "steps": [
+        "assets/images/exercises/steps/squat-step-1.png",
+        "assets/images/exercises/steps/squat-step-2.png",
+        "assets/images/exercises/steps/squat-step-3.png"
+      ],
+      "video": null,
+      "videoProvider": null,
+      "fallbackType": "interactive_canvas"
+    },
+    "wall-pushup": {
+      "image": "assets/images/exercises/squat-demo.png",
+      "thumbnail": "assets/images/thumbnails/day-6-pushup.png",
+      "steps": [
+        "assets/images/exercises/steps/squat-step-1.png",
+        "assets/images/exercises/steps/squat-step-2.png",
+        "assets/images/exercises/steps/squat-step-3.png"
+      ],
+      "video": null,
+      "videoProvider": null,
+      "fallbackType": "interactive_canvas"
+    },
+    "pushup": {
+      "image": "assets/images/exercises/squat-demo.png",
+      "thumbnail": "assets/images/thumbnails/day-6-pushup.png",
+      "steps": [
+        "assets/images/exercises/steps/squat-step-1.png",
+        "assets/images/exercises/steps/squat-step-2.png",
+        "assets/images/exercises/steps/squat-step-3.png"
+      ],
+      "video": null,
+      "videoProvider": null,
+      "fallbackType": "interactive_canvas"
+    },
+    "lunges": {
+      "image": "assets/images/exercises/squat-demo.png",
+      "thumbnail": "assets/images/thumbnails/day-2-lunge.png",
+      "steps": [
+        "assets/images/exercises/steps/squat-step-1.png",
+        "assets/images/exercises/steps/squat-step-2.png",
+        "assets/images/exercises/steps/squat-step-3.png"
+      ],
+      "video": null,
+      "videoProvider": null,
+      "fallbackType": "interactive_canvas"
+    },
+    "plank": {
+      "image": "assets/images/exercises/squat-demo.png",
+      "thumbnail": "assets/images/thumbnails/day-9-plank.png",
+      "steps": [
+        "assets/images/exercises/steps/squat-step-1.png",
+        "assets/images/exercises/steps/squat-step-2.png",
+        "assets/images/exercises/steps/squat-step-3.png"
+      ],
+      "video": null,
+      "videoProvider": null,
+      "fallbackType": "interactive_canvas"
+    },
+    "jumping-jacks": {
+      "image": "assets/images/exercises/squat-demo.png",
+      "thumbnail": "assets/images/thumbnails/day-3-jumping.png",
+      "steps": [
+        "assets/images/exercises/steps/squat-step-1.png",
+        "assets/images/exercises/steps/squat-step-2.png",
+        "assets/images/exercises/steps/squat-step-3.png"
+      ],
+      "video": null,
+      "videoProvider": null,
+      "fallbackType": "interactive_canvas"
+    },
+    "arm-raises": {
+      "image": "assets/images/exercises/squat-demo.png",
+      "thumbnail": "assets/images/thumbnails/day-4-arms.png",
+      "steps": [
+        "assets/images/exercises/steps/squat-step-1.png",
+        "assets/images/exercises/steps/squat-step-2.png",
+        "assets/images/exercises/steps/squat-step-3.png"
+      ],
+      "video": null,
+      "videoProvider": null,
+      "fallbackType": "interactive_canvas"
+    },
+    "wall-sit": {
+      "image": "assets/images/exercises/squat-demo.png",
+      "thumbnail": "assets/images/thumbnails/day-5-wallsit.png",
+      "steps": [
+        "assets/images/exercises/steps/squat-step-1.png",
+        "assets/images/exercises/steps/squat-step-2.png",
+        "assets/images/exercises/steps/squat-step-3.png"
+      ],
+      "video": null,
+      "videoProvider": null,
+      "fallbackType": "interactive_canvas"
+    },
+    "mountain-climbers": {
+      "image": "assets/images/exercises/squat-demo.png",
+      "thumbnail": "assets/images/thumbnails/day-10-climber.png",
+      "steps": [
+        "assets/images/exercises/steps/squat-step-1.png",
+        "assets/images/exercises/steps/squat-step-2.png",
+        "assets/images/exercises/steps/squat-step-3.png"
+      ],
+      "video": null,
+      "videoProvider": null,
+      "fallbackType": "interactive_canvas"
+    },
+    "rest-recovery": {
+      "image": "assets/images/exercises/squat-demo.png",
+      "thumbnail": "assets/images/thumbnails/day-7-rest.png",
+      "steps": [
+        "assets/images/exercises/steps/squat-step-1.png",
+        "assets/images/exercises/steps/squat-step-2.png",
+        "assets/images/exercises/steps/squat-step-3.png"
+      ],
+      "video": null,
+      "videoProvider": null,
+      "fallbackType": "interactive_canvas"
+    }
+  }
+}

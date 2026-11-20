@@ -1,0 +1,70 @@
+/* ==========================================================================
+   RESPONSIVE DESIGN BREAKPOINTS
+   320px, 360px, 375px, 390px, 414px, 768px, 1024px, 1440px
+   Strictly Zero Horizontal Scroll
+   ========================================================================== */
+
+/* Universal mobile safeguard */
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Small mobile screens (320px - 360px) */
+@media (max-width: 360px) {
+  :root {
+    --space-md: 12px;
+    --space-lg: 16px;
+  }
+
+  .brand-tagline {
+    display: none;
+  }
+
+  .hero-headline {
+    font-size: 1.85rem;
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .exercise-steps-row {
+    grid-template-columns: 1fr;
+  }
+
+  .btn-lg {
+    padding: 12px 20px;
+    font-size: 1rem;
+  }
+
+  .banner-mini-bar {
+    display: none;
+  }
+}
+
+/* Tablets & Mobile Landscape (up to 768px) */
+@media (max-width: 768px) {
+  .site-header {
+    height: 64px;
+  }
+
+  .hero-handwritten-note {
+    display: none;
+  }
+
+  .exercise-main-board {
+    border-radius: var(--radius-lg);
+  }
+
+  .step-thumb-img {
+    height: 75px;
+  }
+}
+
+/* Desktop Large (1440px+) */
+@media (min-width: 1440px) {
+  :root {
+    --max-width-content: 1320px;
+  }
+}

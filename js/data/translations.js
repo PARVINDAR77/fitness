@@ -1,0 +1,425 @@
+/**
+ * FitLife Multilingual Localization Dictionary
+ * High-quality human translations for English, Hindi, Gujarati, with extensible stubs
+ */
+
+export const translations = {
+  en: {
+    // Brand & Header
+    brandTagline: "Be Healthy - Live Happy",
+    navHome: "Home",
+    navWorkoutPlan: "Workout Plan",
+    navHealthyTips: "Healthy Tips",
+    navAbout: "About",
+    login: "Login",
+    profile: "Profile",
+
+    // Hero Section
+    heroTitlePart1: "Your Daily",
+    heroTitleHighlight: "Fitness",
+    heroTitlePart2: "Partner",
+    heroSubtitle: "Follow your personalized 30 days workout plan and achieve your weight loss goal!",
+    checkDailyVideo: "Daily Workout with Video",
+    checkEasyExercises: "Simple & Easy Exercises",
+    checkMultiLanguage: "Multi-Language Support",
+    checkTrackProgress: "Track Your Progress",
+    start30Days: "Start Your 30 Days Plan →",
+    healthyYouHappyYou: "Healthy You • Happy You",
+    handwrittenBadge: "Lose Weight, Stay Fit, Feel Great!",
+
+    // 4 Benefit Cards
+    benefitLoseWeight: "Lose Weight Naturally",
+    benefitImproveHealth: "Improve Health",
+    benefitBoostEnergy: "Boost Energy",
+    benefitLiveHappier: "Live Happier",
+
+    // Today's Workout Dashboard
+    todaysWorkout: "Today's Workout",
+    todaysWorkoutSubtitle: "Let's get started with your daily workout!",
+    dayProgressBadge: "Day {day} of 30",
+    listen: "Listen",
+    stop: "Stop",
+    startWorkout: "Start Workout",
+    stepTitle: "Squat",
+    stepCategory: "(Legs & Glutes)",
+    tipPrefix: "Tip:",
+    tipSquatContent: "Keep your knees behind your toes and keep your back straight.",
+    step1Label: "Stand with feet shoulder-width apart.",
+    step2Label: "Bend your knees and lower your body.",
+    step3Label: "Keep your back straight.",
+    step4Label: "Stand up and repeat.",
+
+    // 30 Days Plan Grid
+    planTitle: "30 Days Workout Plan",
+    planSubtitle: "Follow this plan for 30 days and see the amazing results!",
+    statusDone: "Done",
+    statusStart: "Start",
+    statusRelax: "Relax & Recharge",
+    statusUpcoming: "Upcoming",
+    dayWord: "Day",
+
+    // Workout Tips Section
+    tipsWidgetTitle: "Workout Tips",
+    tipsWidgetSubtitle: "Simple Tips for Better Results",
+    tipDoDaily: "Do workout daily",
+    tipDrinkWater: "Drink plenty of water",
+    tipEatHealthy: "Eat healthy food",
+    tipGoodSleep: "Get good sleep",
+
+    // Language Selector Section
+    chooseLanguageTitle: "Choose Your Language",
+    chooseLanguageSubtitle: "Workout in your preferred language",
+    langEnglish: "English",
+    langHindi: "हिंदी",
+    langGujarati: "ગુજરાતી",
+    langMarathi: "मराठी",
+    langTamil: "தமிழ்",
+    langTelugu: "తెలుగు",
+
+    // Guided Workout Player
+    playerGetReady: "Get Ready",
+    playerWork: "Work Interval",
+    playerRest: "Rest Period",
+    playerNextExercise: "Next Up:",
+    playerPause: "Pause",
+    playerResume: "Resume",
+    playerSkip: "Skip",
+    playerPrev: "Previous",
+    playerFinish: "Finish Session",
+    playerCongratulations: "Congratulations! Workout Complete!",
+    playerDayLogged: "Day {day} has been recorded in your 30-day streak.",
+    btnBackHome: "Back to Home",
+    btnViewCalendar: "View 30-Day Plan",
+
+    // Onboarding Wizard
+    onboardingTitle: "Personalize Your 30-Day FitLife Plan",
+    onboardingSubtitle: "Tailored to your body, goals, and daily schedule in 30 seconds.",
+    stepGoal: "What is your primary fitness goal?",
+    stepLevel: "What is your current fitness level?",
+    stepDuration: "How much time can you commit daily?",
+    stepLang: "Which language do you prefer for instructions?",
+    goalWeightLoss: "Weight Management & Fat Loss",
+    goalGeneralFitness: "General Fitness & Health",
+    goalStrength: "Strength & Muscle Tone",
+    goalFlexibility: "Flexibility & Balance",
+    goalMobility: "Joint Mobility & Ease",
+    levelBeginner: "Beginner (Gentle, low-impact)",
+    levelIntermediate: "Intermediate (Balanced tempo)",
+    levelAdvanced: "Advanced (Challenging intervals)",
+    min10: "10 Minutes",
+    min15: "15 Minutes (Recommended)",
+    min20: "20 Minutes",
+    min30: "30 Minutes",
+    btnNext: "Next Step →",
+    btnStartMyPlan: "Start My 30-Day Journey →",
+
+    // Profile & Settings
+    profileTitle: "My Profile & Preferences",
+    profileDaysDone: "Days Completed",
+    profileStreak: "Active Streak",
+    profileMinutes: "Total Minutes",
+    settingsGoalTitle: "Fitness Goal",
+    settingsLevelTitle: "Difficulty Level",
+    settingsDurationTitle: "Target Duration",
+    settingsSoundTitle: "Audio & Coaching Voice",
+    settingsSoundToggle: "Sound Chimes & Alerts",
+    settingsSpeechSpeed: "Voice Speed",
+    speedSlow: "0.8x (Slow)",
+    speedNormal: "1.0x (Normal)",
+    speedFast: "1.2x (Brisk)",
+    btnSaveSettings: "Save Settings",
+    btnResetProgress: "Reset All Progress",
+    resetConfirmTitle: "Are you sure you want to reset all progress?",
+    resetConfirmBody: "This will reset your completed days, streaks, and custom workout plan back to Day 1. This action cannot be undone.",
+    btnCancel: "Cancel",
+    btnConfirmReset: "Yes, Reset Everything",
+
+    // Common Footer & Disclaimers
+    footerMission: "FitLife is your welcoming daily fitness companion. Designed with love to help everyday people, homemakers, and seniors stay active, feel energized, and live happy lives without gym intimidation.",
+    footerLinksHeader: "Quick Navigation",
+    footerLegalHeader: "Safety & Privacy",
+    disclaimerText: "Medical Disclaimer: FitLife is designed for general fitness and habit building. Please consult your physician before starting any exercise routine, especially if you have chronic medical conditions or joint limitations.",
+    copyrightText: "© 2026 FitLife. Be Healthy. Live Happy. All rights reserved."
+  },
+
+  hi: {
+    // Brand & Header
+    brandTagline: "स्वस्थ रहें - खुश रहें",
+    navHome: "होम",
+    navWorkoutPlan: "वर्कआउट प्लान",
+    navHealthyTips: "हेल्दी टिप्स",
+    navAbout: "हमारे बारे में",
+    login: "लॉगिन",
+    profile: "प्रोफाइल",
+
+    // Hero Section
+    heroTitlePart1: "आपका दैनिक",
+    heroTitleHighlight: "फिटनेस",
+    heroTitlePart2: "साथी",
+    heroSubtitle: "अपने व्यक्तिगत 30-दिवसीय वर्कआउट प्लान का पालन करें और वजन घटाने का लक्ष्य प्राप्त करें!",
+    checkDailyVideo: "वीडियो के साथ दैनिक वर्कआउट",
+    checkEasyExercises: "सरल और आसान व्यायाम",
+    checkMultiLanguage: "बहुभाषी सहयोग (हिंदी/गुजराती/अंग्रेजी)",
+    checkTrackProgress: "अपनी प्रगति ट्रैक करें",
+    start30Days: "अपना 30 दिन का प्लान शुरू करें →",
+    healthyYouHappyYou: "स्वस्थ आप • खुशहाल आप",
+    handwrittenBadge: "वजन घटाएं, फिट रहें, शानदार महसूस करें!",
+
+    // 4 Benefit Cards
+    benefitLoseWeight: "प्राकृतिक रूप से वजन घटाएं",
+    benefitImproveHealth: "स्वास्थ्य में सुधार",
+    benefitBoostEnergy: "ऊर्जा बढ़ाएं",
+    benefitLiveHappier: "खुशहाल जीवन जिएं",
+
+    // Today's Workout Dashboard
+    todaysWorkout: "आज का वर्कआउट",
+    todaysWorkoutSubtitle: "आइए आज का वर्कआउट शुरू करें!",
+    dayProgressBadge: "दिन {day} / 30",
+    listen: "सुनें",
+    stop: "रोकें",
+    startWorkout: "वर्कआउट शुरू करें",
+    stepTitle: "स्क्वाट",
+    stepCategory: "(पैर और कूल्हे)",
+    tipPrefix: "सुझाव:",
+    tipSquatContent: "घुटनों को पंजों के पीछे रखें और पीठ को सीधा रखें।",
+    step1Label: "पैरों को कंधों की चौड़ाई पर रखकर खड़े हों।",
+    step2Label: "घुटनों को मोड़ें और शरीर को नीचे लाएं।",
+    step3Label: "अपनी पीठ को सीधा रखें।",
+    step4Label: "सीधे खड़े हों और दोहराएं।",
+
+    // 30 Days Plan Grid
+    planTitle: "30 दिनों का वर्कआउट प्लान",
+    planSubtitle: "इस प्लान को 30 दिनों तक अपनाएं और अद्भुत परिणाम देखें!",
+    statusDone: "पूरा हुआ",
+    statusStart: "शुरू करें",
+    statusRelax: "विश्राम व रिकवरी",
+    statusUpcoming: "आगामी",
+    dayWord: "दिन",
+
+    // Workout Tips Section
+    tipsWidgetTitle: "वर्कआउट टिप्स",
+    tipsWidgetSubtitle: "बेहतर परिणामों के लिए सरल सुझाव",
+    tipDoDaily: "रोजाना वर्कआउट करें",
+    tipDrinkWater: "भरपूर पानी पिएं",
+    tipEatHealthy: "पौष्टिक भोजन करें",
+    tipGoodSleep: "अच्छी नींद लें",
+
+    // Language Selector Section
+    chooseLanguageTitle: "अपनी भाषा चुनें",
+    chooseLanguageSubtitle: "अपनी पसंदीदा भाषा में वर्कआउट करें",
+    langEnglish: "English",
+    langHindi: "हिंदी",
+    langGujarati: "ગુજરાતી",
+    langMarathi: "मराठी",
+    langTamil: "தமிழ்",
+    langTelugu: "తెలుగు",
+
+    // Guided Workout Player
+    playerGetReady: "तैयार हो जाएं",
+    playerWork: "व्यायाम समय",
+    playerRest: "आराम का समय",
+    playerNextExercise: "अगला व्यायाम:",
+    playerPause: "रोकें",
+    playerResume: "पुनः शुरू करें",
+    playerSkip: "आगे बढ़ें",
+    playerPrev: "पिछला",
+    playerFinish: "समाप्त करें",
+    playerCongratulations: "बधाई हो! आज का वर्कआउट पूरा हुआ!",
+    playerDayLogged: "दिन {day} आपकी 30-दिवसीय स्ट्रीक में दर्ज हो गया है।",
+    btnBackHome: "होम पर वापस जाएं",
+    btnViewCalendar: "30-दिन का प्लान देखें",
+
+    // Onboarding Wizard
+    onboardingTitle: "अपना 30-दिवसीय फिटलाइफ प्लान अनुकूलित करें",
+    onboardingSubtitle: "मात्र 30 सेकंड में अपने शरीर और लक्ष्य के अनुसार प्लान पाएं।",
+    stepGoal: "आपका मुख्य फिटनेस लक्ष्य क्या है?",
+    stepLevel: "आपका वर्तमान फिटनेस स्तर क्या है?",
+    stepDuration: "आप रोजाना कितना समय दे सकते हैं?",
+    stepLang: "निर्देशों के लिए आपकी पसंदीदा भाषा कौन सी है?",
+    goalWeightLoss: "वजन प्रबंधन और फैट लॉस",
+    goalGeneralFitness: "सामान्य फिटनेस और स्वास्थ्य",
+    goalStrength: "मांसपेशियों की मजबूती और टोन",
+    goalFlexibility: "लचीलापन और संतुलन",
+    goalMobility: "जोड़ों का स्वास्थ्य और गतिशीलता",
+    levelBeginner: "शुरुआती (आसान, जोड़ों के अनुकूल)",
+    levelIntermediate: "मध्यम (संतुलित गति)",
+    levelAdvanced: "उन्नत (चुनौतीपूर्ण व्यायाम)",
+    min10: "10 मिनट",
+    min15: "15 मिनट (सर्वोत्तम)",
+    min20: "20 मिनट",
+    min30: "30 मिनट",
+    btnNext: "अगला कदम →",
+    btnStartMyPlan: "मेरी 30-दिवसीय यात्रा शुरू करें →",
+
+    // Profile & Settings
+    profileTitle: "मेरी प्रोफाइल व सेटिंग्स",
+    profileDaysDone: "पूरे किए गए दिन",
+    profileStreak: "सक्रिय स्ट्रीक",
+    profileMinutes: "कुल मिनट",
+    settingsGoalTitle: "फिटनेस लक्ष्य",
+    settingsLevelTitle: "कठिनाई स्तर",
+    settingsDurationTitle: "दैनिक अवधि",
+    settingsSoundTitle: "ध्वनि और आवाज सेटिंग्स",
+    settingsSoundToggle: "ऑडियो अलर्ट और बीप",
+    settingsSpeechSpeed: "बोलने की गति",
+    speedSlow: "0.8x (धीमी)",
+    speedNormal: "1.0x (सामान्य)",
+    speedFast: "1.2x (तेज)",
+    btnSaveSettings: "सेटिंग्स सुरक्षित करें",
+    btnResetProgress: "सारी प्रगति रीसेट करें",
+    resetConfirmTitle: "क्या आप वाकई सारी प्रगति रीसेट करना चाहते हैं?",
+    resetConfirmBody: "इससे आपके सभी पूरे किए गए दिन और स्ट्रीक हट जाएंगे और प्लान दिन 1 पर लौट जाएगा। इसे वापस नहीं लाया जा सकेगा।",
+    btnCancel: "रद्द करें",
+    btnConfirmReset: "हां, सब रीसेट करें",
+
+    // Common Footer & Disclaimers
+    footerMission: "फिटलाइफ आपका अपना दैनिक फिटनेस साथी है। इसे आम लोगों, गृहणियों और बुजुर्गों के लिए प्यार से तैयार किया गया है ताकि वे बिना किसी डर के स्वस्थ, ऊर्जावान और खुशहाल रह सकें।",
+    footerLinksHeader: "त्वरित नेविगेशन",
+    footerLegalHeader: "सुरक्षा एवं गोपनीयता",
+    disclaimerText: "चिकित्सा अस्वीकरण: फिटलाइफ सामान्य फिटनेस और आदत निर्माण के लिए है। किसी भी नए व्यायाम को शुरू करने से पहले अपने डॉक्टर से सलाह अवश्य लें।",
+    copyrightText: "© 2026 फिटलाइफ। स्वस्थ रहें। खुश रहें। सर्वाधिकार सुरक्षित।"
+  },
+
+  gu: {
+    // Brand & Header
+    brandTagline: "સ્વસ્થ રહો - ખુશ રહો",
+    navHome: "હોમ",
+    navWorkoutPlan: "વર્કઆઉટ પ્લાન",
+    navHealthyTips: "હેલ્ધી ટિપ્સ",
+    navAbout: "અમારા વિશે",
+    login: "લૉગિન",
+    profile: "પ્રોફાઇલ",
+
+    // Hero Section
+    heroTitlePart1: "તમારો દૈનિક",
+    heroTitleHighlight: "ફિટનેસ",
+    heroTitlePart2: "પાર્ટનર",
+    heroSubtitle: "તમારા પર્સનલાઇઝ્ડ 30 દિવસના વર્કઆઉટ પ્લાનને અનુસરો અને વજન ઘટાડવાનું લક્ષ્ય પ્રાપ્ત કરો!",
+    checkDailyVideo: "વિડીયો સાથે દૈનિક વર્કઆઉટ",
+    checkEasyExercises: "સરળ અને સહેલી કસરતો",
+    checkMultiLanguage: "બહુભાષી સહાય (ગુજરાતી/હિન્દી/અંગ્રેજી)",
+    checkTrackProgress: "તમારી પ્રગતિ ટ્રેક કરો",
+    start30Days: "તમારો 30 દિવસનો પ્લાન શરૂ કરો →",
+    healthyYouHappyYou: "સ્વસ્થ તમે • ખુશહાલ તમે",
+    handwrittenBadge: "વજન ઘટાડો, ફિટ રહો, ઉત્સાહ અનુભવો!",
+
+    // 4 Benefit Cards
+    benefitLoseWeight: "કુદરતી રીતે વજન ઘટાડો",
+    benefitImproveHealth: "સ્વાસ્થ્યમાં સુધારો",
+    benefitBoostEnergy: "ઊર્જામાં વધારો",
+    benefitLiveHappier: "ખુશહાલ જીવન જીવો",
+
+    // Today's Workout Dashboard
+    todaysWorkout: "આજનું વર્કઆઉટ",
+    todaysWorkoutSubtitle: "ચાલો આજનું વર્કઆઉટ શરૂ કરીએ!",
+    dayProgressBadge: "દિવસ {day} / 30",
+    listen: "સાંભળો",
+    stop: "અટકાવો",
+    startWorkout: "વર્કઆઉટ શરૂ કરો",
+    stepTitle: "સ્ક્વોટ",
+    stepCategory: "(પગ અને નિતંબ)",
+    tipPrefix: "ટિપ:",
+    tipSquatContent: "ઘૂંટણને પંજાથી આગળ ન જવા દો અને પીઠ સીધી રાખો.",
+    step1Label: "બંને પગ ખભા જેટલા પહોળા રાખીને ઊભા રહો.",
+    step2Label: "ઘૂંટણ વાળીને શરીરને નીચે લાવો.",
+    step3Label: "તમારી પીઠ હંમેશા સીધી રાખો.",
+    step4Label: "સીધા ઊભા થઈ જાઓ અને પુનરાવર્તન કરો.",
+
+    // 30 Days Plan Grid
+    planTitle: "30 દિવસનો વર્કઆઉટ પ્લાન",
+    planSubtitle: "આ પ્લાન 30 દિવસ સુધી અનુસરો અને અદ્ભુત પરિણામો જુઓ!",
+    statusDone: "પૂર્ણ થયું",
+    statusStart: "શરૂ કરો",
+    statusRelax: "વિશ્રામ અને આરામ",
+    statusUpcoming: "આગામી",
+    dayWord: "દિવસ",
+
+    // Workout Tips Section
+    tipsWidgetTitle: "વર્કઆઉટ ટિપ્સ",
+    tipsWidgetSubtitle: "સારા પરિણામો માટે સરળ ટિપ્સ",
+    tipDoDaily: "રોજ વર્કઆઉટ કરો",
+    tipDrinkWater: "પૂરતું પાણી પીવો",
+    tipEatHealthy: "પૌષ્ટિક ખોરાક લો",
+    tipGoodSleep: "સારી ઊંઘ લો",
+
+    // Language Selector Section
+    chooseLanguageTitle: "તમારી ભાષા પસંદ કરો",
+    chooseLanguageSubtitle: "તમારી મનપસંદ ભાષામાં વર્કઆઉટ કરો",
+    langEnglish: "English",
+    langHindi: "हिंदी",
+    langGujarati: "ગુજરાતી",
+    langMarathi: "मराठी",
+    langTamil: "தமிழ்",
+    langTelugu: "తెలుగు",
+
+    // Guided Workout Player
+    playerGetReady: "તૈયાર થઈ જાઓ",
+    playerWork: "કસરતનો સમય",
+    playerRest: "આરામનો સમય",
+    playerNextExercise: "આગળની કસરત:",
+    playerPause: "વિરામ",
+    playerResume: "ફરી શરૂ કરો",
+    playerSkip: "આગળ વધો",
+    playerPrev: "પાછળ જાઓ",
+    playerFinish: "સત્ર પૂર્ણ કરો",
+    playerCongratulations: "અભિનંદન! આજનું વર્કઆઉટ પૂર્ણ થયું!",
+    playerDayLogged: "દિવસ {day} તમારી 30-દિવસની પ્રગતિમાં નોંધાઈ ગયું છે.",
+    btnBackHome: "હોમ પેજ પર જાઓ",
+    btnViewCalendar: "30-દિવસનો પ્લાન જુઓ",
+
+    // Onboarding Wizard
+    onboardingTitle: "તમારો 30-દિવસનો ફિટલાઇફ પ્લાન બનાવો",
+    onboardingSubtitle: "માત્ર 30 સેકન્ડમાં તમારા શરીર અને જરૂરિયાત મુજબ સરળ પ્લાન મેળવો.",
+    stepGoal: "તમારું મુખ્ય ફિટનેસ લક્ષ્ય શું છે?",
+    stepLevel: "તમારું વર્તમાન ફિટનેસ સ્તર કેવું છે?",
+    stepDuration: "તમે રોજના કેટલા મિનિટ આપી શકો છો?",
+    stepLang: "સૂચનાઓ સાંભળવા માટે કઈ ભાષા પસંદ કરશો?",
+    goalWeightLoss: "વજન ઘટાડવું અને ચરબી ઓછી કરવી",
+    goalGeneralFitness: "સામાન્ય ફિટનેસ અને સ્વાસ્થ્ય",
+    goalStrength: "સ્નાયુઓની તાકાત અને ટોનિંગ",
+    goalFlexibility: "શરીરનું લચીલાપણું અને સંતુલન",
+    goalMobility: "સાંધાની હલનચલન અને આરામ",
+    levelBeginner: "શરૂઆત કરનાર (સરળ અને હળવું)",
+    levelIntermediate: "મધ્યમ (સંતુલિત ગતિ)",
+    levelAdvanced: "ઉચ્ચ (સઘન કસરતો)",
+    min10: "10 મિનિટ",
+    min15: "15 મિનિટ (શ્રેષ્ઠ)",
+    min20: "20 મિનિટ",
+    min30: "30 મિનિટ",
+    btnNext: "આગળનું પગલું →",
+    btnStartMyPlan: "મારી 30-દિવસની સફર શરૂ કરો →",
+
+    // Profile & Settings
+    profileTitle: "મારી પ્રોફાઇલ અને સેટિંગ્સ",
+    profileDaysDone: "પૂર્ણ કરેલા દિવસો",
+    profileStreak: "સક્રિય સ્ટ્રીક",
+    profileMinutes: "કુલ મિનિટો",
+    settingsGoalTitle: "ફિટનેસ લક્ષ્ય",
+    settingsLevelTitle: "કઠિનતા સ્તર",
+    settingsDurationTitle: "દૈનિક સમય",
+    settingsSoundTitle: "અવાજ અને વોઇસ સેટિંગ્સ",
+    settingsSoundToggle: "ઓડિયો સંકેતો અને અવાજ",
+    settingsSpeechSpeed: "બોલવાની ઝડપ",
+    speedSlow: "0.8x (ધીમી)",
+    speedNormal: "1.0x (સામાન્ય)",
+    speedFast: "1.2x (ઝડપી)",
+    btnSaveSettings: "સેટિંગ્સ સાચવો",
+    btnResetProgress: "બધી પ્રગતિ રીસેટ કરો",
+    resetConfirmTitle: "શું તમે ખરેખર બધી પ્રગતિ રીસેટ કરવા માંગો છો?",
+    resetConfirmBody: "આનાથી તમારા પૂર્ણ થયેલા દિવસો અને સ્ટ્રીક ડિલીટ થઈ જશે અને પ્લાન ફરી દિવસ 1 પર આવી જશે. આ ક્રિયા પૂર્વવત્ કરી શકાતી નથી.",
+    btnCancel: "રદ કરો",
+    btnConfirmReset: "હા, બધું રીસેટ કરો",
+
+    // Common Footer & Disclaimers
+    footerMission: "ફિટલાઇફ તમારો પોતાનો દૈનિક ફિટનેસ સાથી છે. સામાન્ય માણસો, ગૃહિણીઓ અને વડીલો માટે ખાસ બનાવવામાં આવેલ છે જેથી તેઓ કોઈ પણ મૂંઝવણ વિના સ્વસ્થ, સ્ફૂર્તિલા અને ખુશ રહી શકે.",
+    footerLinksHeader: "ઝડપી નેવિગેશન",
+    footerLegalHeader: "સુરક્ષા અને ગોપનીયતા",
+    disclaimerText: "તબીબી ડિસ્ક્લેમર: ફિટલાઇફ સામાન્ય ફિટનેસ અને સારી આદતો કેળવવા માટે છે. કોઈ પણ નવી કસરત શરૂ કરતા પહેલા તમારા તબીબની સલાહ ચોક્કસ લો.",
+    copyrightText: "© 2026 ફિટલાઇફ. સ્વસ્થ રહો. ખુશ રહો. સર્વાધિકાર સુરક્ષિત."
+  }
+};
+
+// Structural stubs for Marathi, Tamil, Telugu
+translations.mr = { ...translations.hi, chooseLanguageTitle: "तुमची भाषा निवडा", chooseLanguageSubtitle: "तुमच्या पसंतीच्या भाषेत वर्कआउट करा" };
+translations.ta = { ...translations.en, chooseLanguageTitle: "உங்கள் மொழியைத் தேர்வுசெய்க", chooseLanguageSubtitle: "உங்கள் விருப்பமான மொழியில் உடற்பயிற்சி செய்யுங்கள்" };
+translations.te = { ...translations.en, chooseLanguageTitle: "మీ భాషను ఎంచుకోండి", chooseLanguageSubtitle: "మీ ప్రాధాన్య భాషలో వ్యాయామం చేయండి" };

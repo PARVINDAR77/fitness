@@ -1,0 +1,217 @@
+/* ==========================================================================
+   30-DAY WORKOUT PLAN CALENDAR STYLES
+   Grid cards, day statuses (Done, Today, Start, Rest Day)
+   ========================================================================== */
+
+.calendar-header-card {
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-xl);
+  margin-bottom: var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+@media (min-width: 768px) {
+  .calendar-header-card {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.calendar-header-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  z-index: 2;
+}
+
+.calendar-header-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: clamp(1.5rem, 2.5vw, 2.2rem);
+  font-weight: 800;
+  color: var(--color-navy-dark);
+}
+
+.calendar-bullseye-img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  z-index: 2;
+  filter: drop-shadow(0 8px 16px rgba(86, 55, 216, 0.15));
+}
+
+/* 30-Day Cards Grid */
+.calendar-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+  margin-bottom: var(--space-3xl);
+}
+
+@media (min-width: 540px) {
+  .calendar-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 860px) {
+  .calendar-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1100px) {
+  .calendar-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+/* Individual Day Card (Matches Reference Grid) */
+.day-card {
+  background-color: var(--color-bg-card);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  box-shadow: var(--shadow-xs);
+  transition: all var(--transition-fast);
+  position: relative;
+  overflow: hidden;
+}
+
+.day-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card);
+  border-color: var(--color-border-hover);
+}
+
+.day-card.status-active {
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 16px rgba(86, 55, 216, 0.15);
+  background: linear-gradient(180deg, #FFFFFF 0%, #F9F8FE 100%);
+}
+
+.day-card.status-completed {
+  border-color: var(--color-success-border);
+  background-color: #FAFCFA;
+}
+
+.day-card.status-rest {
+  border-color: #F0E6D2;
+  background-color: #FDFAF5;
+}
+
+.day-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.day-label {
+  font-size: 0.875rem;
+  font-weight: 800;
+  color: var(--color-navy-dark);
+}
+
+.day-duration-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
+.day-card-body {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin: var(--space-xs) 0;
+}
+
+.day-thumbnail-wrapper {
+  width: 58px;
+  height: 80px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background-color: var(--color-bg-subtle);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.day-thumbnail-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.day-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.day-exercise-title {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--color-navy-dark);
+  line-height: 1.3;
+}
+
+.day-category-tag {
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+}
+
+.day-card-footer {
+  margin-top: auto;
+}
+
+.btn-day-action {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  border-radius: var(--radius-pill);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: all var(--transition-fast);
+  min-height: 38px;
+}
+
+.btn-day-done {
+  background-color: var(--color-success-bg);
+  color: var(--color-success);
+  border: 1px solid var(--color-success-border);
+}
+
+.btn-day-start {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+  border: 1px solid transparent;
+}
+
+.btn-day-start:hover {
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+}
+
+.btn-day-rest {
+  background-color: var(--color-warning-bg);
+  color: var(--color-warning-dark);
+  border: 1px solid var(--color-warning-border);
+}

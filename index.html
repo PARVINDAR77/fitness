@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="theme-color" content="#5637D8">
+  <meta name="description" content="FitLife - Your Personal Daily Fitness Coach. Follow your personalized 30 days workout plan, exercise demonstration videos, and audio instructions in English, Hindi, and Gujarati.">
+  <meta name="keywords" content="daily workout, fitness coach, 30 days workout, home exercises, fitness for beginners, Hindi fitness app, Gujarati fitness, bodyweight workout">
+  
+  <title>FitLife — Your Personal Daily Fitness Coach | Be Healthy. Live Happy.</title>
+
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Application Modular Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/workout.css">
+  <link rel="stylesheet" href="css/calendar.css">
+  <link rel="stylesheet" href="css/profile.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><rect width='48' height='48' rx='12' fill='%235637D8'/><path d='M10 20h6v8h-6zM32 20h6v8h-6zM16 22h16v4H16z' fill='white'/></svg>">
+</head>
+<body>
+
+  <!-- Site Header (Desktop & Mobile Bar) -->
+  <header id="site-header" class="site-header"></header>
+
+  <!-- Main View Router Container -->
+  <main class="main-content">
+
+    <!-- ======================================================================
+         VIEW 1: HOME PAGE
+         ====================================================================== -->
+    <section id="home-view" class="view-panel">
+      <!-- Hero Section -->
+      <div class="hero-section">
+        <div class="site-container hero-grid">
+          
+          <!-- Hero Text Content -->
+          <div class="hero-content">
+            <h1 class="hero-headline">
+              <span data-i18n="heroTitlePart1">Your Daily</span><br>
+              <span class="highlight-word" data-i18n="heroTitleHighlight">Fitness</span> 
+              <span data-i18n="heroTitlePart2">Partner</span>
+            </h1>
+
+            <p class="hero-subtitle" data-i18n="heroSubtitle">
+              Follow your personalized 30 days workout plan and achieve your weight loss goal!
+            </p>
+
+            <div class="hero-checklist">
+              <div class="hero-check-item">
+                <span class="hero-check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg></span>
+                <span data-i18n="checkDailyVideo">Daily Workout with Video</span>
+              </div>
+              <div class="hero-check-item">
+                <span class="hero-check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg></span>
+                <span data-i18n="checkEasyExercises">Simple & Easy Exercises</span>
+              </div>
+              <div class="hero-check-item">
+                <span class="hero-check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg></span>
+                <span data-i18n="checkMultiLanguage">Multi-Language Support</span>
+              </div>
+              <div class="hero-check-item">
+                <span class="hero-check-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg></span>
+                <span data-i18n="checkTrackProgress">Track Your Progress</span>
+              </div>
+            </div>
+
+            <div class="hero-cta-group">
+              <button id="btn-hero-start" class="btn btn-primary btn-lg" data-action="start-30-days">
+                <span data-i18n="start30Days">Start Your 30 Days Plan →</span>
+              </button>
+              <div class="hero-trust-tag">
+                <span>❤️</span>
+                <span data-i18n="healthyYouHappyYou">Healthy You • Happy You</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Visual: Trainer Image with Lavender Backdrop -->
+          <div class="hero-visual">
+            <div class="hero-backdrop-shape"></div>
+            <div class="hero-image-wrapper">
+              <img src="assets/images/hero/trainer-hero.png" alt="FitLife Personal Daily Fitness Coach" class="hero-trainer-img" width="350" height="450">
+            </div>
+            <div class="hero-handwritten-note">
+              <span data-i18n="handwrittenBadge">Lose Weight, Stay Fit, Feel Great!</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 4 Benefit Pill Cards (Matches Reference Image) -->
+      <div class="site-container benefits-section">
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon-box benefit-icon-blue">⚖️</div>
+            <div class="benefit-title" data-i18n="benefitLoseWeight">Lose Weight Naturally</div>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon-box benefit-icon-red">🫀</div>
+            <div class="benefit-title" data-i18n="benefitImproveHealth">Improve Health</div>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon-box benefit-icon-yellow">⚡</div>
+            <div class="benefit-title" data-i18n="benefitBoostEnergy">Boost Energy</div>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon-box benefit-icon-green">😊</div>
+            <div class="benefit-title" data-i18n="benefitLiveHappier">Live Happier</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Home Dashboard Preview Section -->
+      <div class="site-container">
+        <div class="home-dashboard-grid">
+          
+          <!-- Left: Today's Workout Quick Launcher -->
+          <div class="card card-hover" id="home-today-preview" style="cursor: pointer; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+                <span class="badge badge-purple" data-i18n="todaysWorkout">Today's Workout</span>
+                <span class="text-caption" style="font-weight:700; color:var(--color-primary);" data-metric="streak">🔥 Active Streak</span>
+              </div>
+              <h2 class="text-title-2" style="margin-bottom:6px;">Day 1: Full Body Kickstart</h2>
+              <p class="text-body-sm">Squats, Wall Push-Ups, March in Place & Arm Circles with video coaching.</p>
+            </div>
+
+            <div style="margin-top: 20px;">
+              <div class="progress-wrapper" style="margin-bottom: 12px;">
+                <div class="progress-meta">
+                  <span>30-Day Completion</span>
+                  <span data-metric="percentage">3%</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" data-metric-bar="progress" style="width: 3%;"></div>
+                </div>
+              </div>
+              <button class="btn btn-primary" style="width: 100%;">
+                <span data-i18n="startWorkout">Start Workout (Day 1)</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Right: Tips & Language Card Column -->
+          <div style="display: flex; flex-direction: column; gap: var(--space-md);">
+            <!-- Workout Tips Card -->
+            <div class="card">
+              <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+                <div style="display: flex; align-items: center; gap: 8px;">
+                  <span style="font-size: 1.4rem;">💡</span>
+                  <div>
+                    <h3 class="text-title-3" data-i18n="tipsWidgetTitle">Workout Tips</h3>
+                    <span class="text-caption" data-i18n="tipsWidgetSubtitle">Simple Tips for Better Results</span>
+                  </div>
+                </div>
+                <img src="assets/images/tips/healthy-food.png" alt="Healthy habits" style="width: 65px; height: 65px; border-radius: 12px; object-fit: cover;">
+              </div>
+
+              <div style="display: flex; flex-direction: column; gap: 8px; font-size: 0.875rem;">
+                <div style="display:flex; align-items:center; gap:8px;">
+                  <span style="color:var(--color-success); font-weight:bold;">✔</span>
+                  <span data-i18n="tipDoDaily">Do workout daily</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:8px;">
+                  <span style="color:var(--color-success); font-weight:bold;">✔</span>
+                  <span data-i18n="tipDrinkWater">Drink plenty of water</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:8px;">
+                  <span style="color:var(--color-success); font-weight:bold;">✔</span>
+                  <span data-i18n="tipEatHealthy">Eat healthy food</span>
+                </div>
+                <div style="display:flex; align-items:center; gap:8px;">
+                  <span style="color:var(--color-success); font-weight:bold;">✔</span>
+                  <span data-i18n="tipGoodSleep">Get good sleep</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Choose Your Language Card (Matches Reference Image) -->
+            <div class="language-selector-card">
+              <div style="display: flex; align-items: center; gap: 8px;">
+                <span style="font-size: 1.4rem;">🌐</span>
+                <div>
+                  <h3 class="text-title-3" data-i18n="chooseLanguageTitle">Choose Your Language</h3>
+                  <span class="text-caption" data-i18n="chooseLanguageSubtitle">Workout in your preferred language</span>
+                </div>
+              </div>
+
+              <div class="language-pills-grid">
+                <button class="lang-pill-btn active" data-lang="en">🇬🇧 English</button>
+                <button class="lang-pill-btn" data-lang="hi">🇮🇳 हिंदी</button>
+                <button class="lang-pill-btn" data-lang="gu">🇮🇳 ગુજરાતી</button>
+                <button class="lang-pill-btn" data-lang="mr">🇮🇳 मराठी</button>
+                <button class="lang-pill-btn" data-lang="ta">🇮🇳 தமிழ்</button>
+                <button class="lang-pill-btn" data-lang="te">🇮🇳 తెలుగు</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         VIEW 2: 30-DAY WORKOUT PLAN (CALENDAR VIEW)
+         ====================================================================== -->
+    <section id="plan-view" class="view-panel" style="display: none;">
+      <div class="site-container">
+        <!-- Calendar Header Banner with Target Bullseye Graphic -->
+        <div class="calendar-header-card">
+          <div class="calendar-header-content">
+            <h1 class="calendar-header-title">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span data-i18n="planTitle">30 Days Workout Plan</span>
+            </h1>
+            <p class="text-body" data-i18n="planSubtitle">
+              Follow this plan for 30 days and see the amazing results!
+            </p>
+          </div>
+
+          <img src="assets/images/branding/target-bullseye.png" alt="30 Day Target Goal" class="calendar-bullseye-img" width="90" height="85">
+        </div>
+
+        <!-- 30-Day Cards Grid -->
+        <div id="calendar-grid-root" class="calendar-grid"></div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         VIEW 3: TODAY'S WORKOUT VIEW
+         ====================================================================== -->
+    <section id="workout-view" class="view-panel" style="display: none;">
+      <div class="site-container" id="daily-workout-root"></div>
+    </section>
+
+    <!-- ======================================================================
+         VIEW 4: HEALTHY HABITS & TIPS VIEW
+         ====================================================================== -->
+    <section id="tips-view" class="view-panel" style="display: none;">
+      <div class="site-container">
+        <div class="calendar-header-card" style="margin-bottom: var(--space-xl);">
+          <div class="calendar-header-content">
+            <h1 class="calendar-header-title">
+              <span>🥗</span>
+              <span data-i18n="navHealthyTips">Healthy Tips</span>
+            </h1>
+            <p class="text-body" data-i18n="tipsWidgetSubtitle">
+              Simple Tips for Better Results & Lifelong Vitality
+            </p>
+          </div>
+        </div>
+
+        <div id="tips-grid-root" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--space-lg); margin-bottom: var(--space-3xl);"></div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         VIEW 5: USER PROFILE & SETTINGS VIEW
+         ====================================================================== -->
+    <section id="profile-view" class="view-panel" style="display: none;">
+      <div class="site-container" id="profile-view-root"></div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer id="site-footer" class="site-footer"></footer>
+
+  <!-- Fixed Mobile Bottom Navigation Bar -->
+  <nav id="bottom-nav" class="bottom-nav"></nav>
+
+  <!-- Modals & Overlays will be injected dynamically -->
+
+  <!-- Application Entry Point -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
